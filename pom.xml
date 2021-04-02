@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.drue.seleniumdemo</groupId>
+    <artifactId>seleniumdemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.9.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.9</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
+        <!--PhantomJS俗称为：无界面的浏览器。不过PhantomJS这款工具在Python爬虫中可是非常有名的。
+        它是一个无头（Headless，无界面，使用脚本进行操作）浏览器，
+        可以进行模拟登录等操作，以便爬取需要登录的网站。-->
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>phantomjsdriver</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+
+</project>

@@ -29,7 +29,7 @@ public class GridTest {
         }else {
             dc = DesiredCapabilities.firefox();
         }
-        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.246.1:5556/wd/hub"), dc);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.246.1:4444/wd/hub"), dc);
         driver.get("https://www.hupu.com");
         System.out.println(driver.getTitle());
     }
